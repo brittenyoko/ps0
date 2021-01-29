@@ -21,7 +21,7 @@ sure that these statements all type-check after editing them.  You can
 do this by typing "make all" in the terminal. *)
 
 (* 1. Replace FIRST and LAST with your first and last name *)
-let name : (string * string) = ("FIRST", "LAST");;
+let name : (string * string) = ("Britteny", "Okorom-Achuonye");;
 
 
 
@@ -38,7 +38,7 @@ let name : (string * string) = ("FIRST", "LAST");;
  *)
 type year = FirstYear | Sophomore | Junior | Senior | Other of string;;
 
-let class_year : year = Other "I haven't filled it in yet";;
+let class_year : year = Junior;;
 
 
 
@@ -46,7 +46,7 @@ let class_year : year = Other "I haven't filled it in yet";;
  * with a pattern shown in the type definition for cs50 below. *)
 type cs50 = Took | DidNotTake | Other of string;;
 
-let took_cs_50 : cs50 = Other "I haven't filled it out yet";;
+let took_cs_50 : cs50 = Took;;
 
 
 
@@ -54,13 +54,13 @@ let took_cs_50 : cs50 = Other "I haven't filled it out yet";;
  * of your computer. *)
 type system = Mac | Windows10 | Windows7 | Linux | Other of string;;
 
-let my_system : system = Other "I haven't filled it out yet";;
+let my_system : system = Windows10;;
 
 
 
 (* 5. Replace the string below with a message to post to the problem
    set website. *)
-let exciting : string = "I'm excited about ....!" ;;
+let exciting : string = "I'm excited about getting better at coding!" ;;
 
 
 
@@ -78,14 +78,14 @@ let post : bool = false;;
 (* 7. Set this variable to the key you got from <http://ps0.cs51.io/>
    under the "key" tab if you want your information to appear
    there. *)
-let key : string = "";;
+let key : string = "518d87a6-7b7b-47a0-9db3-08a6b9c31697";;
 
 
 
 (* 8. Please complete the start-of-term survey for the course,
    available at <http://section.cs51.io>. When you have completed the
    survey, set this variable to true. *)
-let sectioned : bool = false;;
+let sectioned : bool = true;;
 
 
 (*......................................................................
@@ -107,7 +107,7 @@ We care about your responses and will use them to help guide us in
 creating future assignments.
 ......................................................................*)
 
-let minutes_spent () : int = failwith "not provided" ;;
+let minutes_spent () : int = 60 ;;
 
 
 (*......................................................................
